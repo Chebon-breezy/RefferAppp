@@ -1,0 +1,49 @@
+.signup{
+    background-color: yellow;
+    height: 100vh;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.head{
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.form{
+    
+}
+
+.form input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    padding: 1rem 1.5rem;
+    width: 450px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.08), -4px -4px 8px rgba(255, 255, 255, 0.65);
+}
+
+.form input::placeholder{
+    color: rgb(134, 134, 134);
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.08), -4px -4px 8px rgba(255, 255, 255, 0.65);
+    padding: 1rem 1.5rem;
+    width: 450px;
+}
+
+.btn:hover{
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.08) inset, -4px -4px 8px rgba(255, 255, 255, 0.5) inset;
+}
+
+
+.gbtn{
+    margin: 3rem auto;
+}
